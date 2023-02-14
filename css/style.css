@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+.nav-item {
+    list-style: none;
+}
+
+.search-btn {
+    list-style: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    /* color: aqua; */
+}
+
+.text{
+    font-size: 0.8rem;
+}
+.yt-logo {
+    height: 3rem;
+    width: 7rem;
+}
+.woman {
+    height: 25rem;
+    width: 18rem;
+    z-index: 2;
+}
+.zig-zag {
+    height: 18rem;
+    width: 23rem;
+    z-index: 1;
+    top: 5rem;
+    left: -3rem;
+}
+.rhombus {
+    z-index: 0;
+    height: 12rem;
+    width: 12rem;
+    top: 2rem;
+    left: 5rem;
+}
+.logo {
+    height: 2rem;
+    width: 2rem;
+}
+.faceb {
+    left: 1.5rem;
+    top: 1rem;
+}
+
+.insta {
+    height: 3rem;
+    width: 3rem;
+    left: 18rem;
+    top: 3rem;
+}
+.twit {
+    top: 11rem;
+}
+.cteam {
+    z-index: 3;
+    height: 8rem;
+    width: 12rem;
+    top: 17rem;
+    left: -6rem;
+}
+
+.cards{
+    width: 15rem;
+}
+.card-logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.card-text {
+    font-size: 0.6rem;
+}
+.arrow {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.opt:hover{
+    border-bottom: 3px solid blue;
+}
+.num{
+    height: 5rem;
+    width: 4rem;
+    top: 1rem;
+    left: 6rem;
+}
+
+.opt-logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.opt {
+    z-index: 1;
+}
+.box-circle {
+    z-index: 0;
+    height: 20rem;
+    width: 20rem;
+}
+/*  */
+.solution-container {
+    margin-top: 8rem;
+}
+.mac {
+    height: 10rem;
+    width: 20rem;
+}
+.perfect-box{
+    width: 20rem;
+}
+/*  */
+.read-more-container, .choose-container{
+    margin-top: 4rem;
+}
+.rect {
+    height: 3rem;
+    width: 3rem;
+}
+.card2 {
+    width: 13rem;
+}
+
+.logo-2 {
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+.choose-logo {
+    height: 10rem;
+    width: 14rem;
+}
