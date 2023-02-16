@@ -68,7 +68,7 @@ p {
 .insta {
     height: 3rem;
     width: 3rem;
-    left: 18rem;
+    left: 17rem;
     top: 3rem;
 }
 .twit {
@@ -79,7 +79,7 @@ p {
     height: 8rem;
     width: 12rem;
     top: 17rem;
-    left: -6rem;
+    left: -4rem;
 }
 /*  */
 /* .cards{
@@ -155,19 +155,19 @@ p {
 /* */
 .route{
     height: 18rem;
-    width: 25rem;
+    width: 20rem;
 }
 .email-logo {
     height: 3rem;
     width: 3rem;
 }
-.seo-box{
+/* .seo-box{
     width: 20rem;
-}
+} */
 /*  */
-.stat-card{
+/* .stat-card{
     width: 40rem;
-}
+} */
 /* */
 .women {
     height: 5rem;
