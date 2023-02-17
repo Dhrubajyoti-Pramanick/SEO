@@ -18,8 +18,7 @@ p {
     list-style: none;
 }
 .expert {
-    height: 3rem;
-    width: 6rem;
+    max-width: 30%;
 }
 .search-btn {
     list-style: none;
@@ -30,35 +29,37 @@ p {
     /* color: aqua; */
 }
 
-.text{
-    font-size: 0.8rem;
-}
 .yt-logo {
-    height: 3rem;
-    width: 7rem;
+    /* height: 3rem;
+    width: 7rem; */
+    max-width: 80%;
 }
 .woman {
-    height: 25rem;
-    width: 18rem;
+    /* height: 25rem;
+    width: 18rem; */
+    max-width: 90%;
     z-index: 3;
 }
 .zig-zag {
-    height: 18rem;
-    width: 23rem;
+    /* height: 18rem;
+    width: 23rem; */
+    max-width: 100%;
     z-index: 1;
     top: 5rem;
-    left: -3rem;
+    left: -2rem;
 }
 .rhombus {
     z-index: 0;
-    height: 12rem;
-    width: 12rem;
-    top: 2rem;
-    left: 5rem;
+    /* height: 12rem;
+    width: 12rem; */
+    max-width: 50%;
+    top: 2.5rem;
+    left: 5.5rem;
 }
 .logo {
-    height: 2rem;
-    width: 2rem;
+    /* height: 2rem;
+    width: 2rem; */
+    max-width: 10%;
 }
 .faceb {
     left: 1.5rem;
@@ -66,32 +67,36 @@ p {
 }
 
 .insta {
-    height: 3rem;
-    width: 3rem;
-    left: 17rem;
+    /* height: 3rem;
+    width: 3rem; */
+    max-width: 13%;
+    left: 14.5rem;
     top: 3rem;
 }
 .twit {
-    top: 11rem;
+    top: 10rem;
 }
 .cteam {
     z-index: 4;
-    height: 8rem;
-    width: 12rem;
-    top: 17rem;
-    left: -4rem;
+    /* height: 8rem;
+    width: 12rem; */
+    max-width:55%;
+    top: 16rem;
+    left: -7rem;
 }
 /*  */
 /* .cards{
     width: 15rem;
 } */
 .card-logo {
-    height: 5rem;
-    width: 5rem;
+    /* height: 5rem;
+    width: 5rem; */
+    max-width: 30%;
+
 }
 
 .card-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .arrow {
     height: 0.5rem;
