@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+body{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,9 +12,11 @@ ul {
 p {
     margin: 0;
 }
+/* section1 */
 .nav-item {
     list-style: none;
 }
+/* secttion2 */
 .expert {
     max-width: 30%;
 }
@@ -35,8 +35,6 @@ p {
     max-width: 80%;
 }
 .woman {
-    /* height: 25rem;
-    width: 18rem; */
     max-width: 90%;
     z-index: 3;
 }
@@ -94,16 +92,21 @@ p {
     max-width: 30%;
 
 }
-
+.cards:hover {
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .card-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .arrow {
     height: 0.5rem;
     width: 0.5rem;
 }
 .opt:hover{
+    transition: 300ms ease-in-out;
     border-bottom: 3px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .num{
     height: 5rem;
@@ -147,6 +150,10 @@ p {
 .card2 {
     width: 13rem;
 }
+.card2:hover, .choose-box:hover {
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .logo-2 {
     left: 1.5rem;
@@ -159,8 +166,12 @@ p {
 }
 /* */
 .route{
-    height: 18rem;
-    width: 20rem;
+    /* height: 18rem;
+    width: 20rem; */
+    max-width: 100%;
+}
+.check {
+    max-width: 50%;
 }
 .email-logo {
     height: 3rem;
@@ -174,9 +185,33 @@ p {
     width: 40rem;
 } */
 /* */
+.our-plans>h4 {
+    color: #6F77F1;
+}
+.our-plans>p:hover {
+    color: white;
+}
+.our-plans:hover a {
+    background-color: yellow;
+    color: black;
+}
+.our-plans:hover h4 {
+    /* background-color: yellow; */
+    color: white;
+}
+.our-plans:hover {
+    background-image: url("../pics/ourPlans/Mask\ group.png");
+    background-position: center;
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+    text-decoration: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .women {
-    height: 5rem;
-    width: 5rem;
+    /* height: 5rem;
+    width: 5rem; */
+    max-width: 100%;
 }
 /*  */
 .women-2 {
@@ -193,5 +228,101 @@ p {
 .subscribe{
     background-color: #6F77F1;
     color: white;
+}
+
+/* swiper */
+.swiper {
+    max-width: 80%;
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper_li{
+    background-image: url("../pics/swiper/“.png");
+    background-repeat: no-repeat;
+}
+.swiper-slide img {
+    display: block;
+    max-width: 100%;
+    object-fit:fill;
+}
+@media screen and (min-width : 1025px){
+    h1{
+        font-size: 4.2rem;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width: 768px) and (max-width : 1024px){
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width : 767px){
+    h1{
+        font-size: 2rem;
+    }
+    .card-text{
+        font-size: 0.7rem;
+    }
+    /* section2 */
+    .yt-logo{
+        max-width: 60%;
+    }
+    .woman{
+        max-width: 100%;
+        z-index: 3;
+    }
+    .zig-zag {
+        max-width: 100%;
+        z-index: 1;
+        top: 5rem;
+        left: -1rem;
+    }
+    .rhombus {
+        z-index: 0;
+        max-width: 50%;
+        top: 2.5rem;
+        left: 5.5rem;
+    }
+    .logo {
+        max-width: 10%;
+    }
+    .faceb {
+        left: 1.5rem;
+        top: 1rem;
+    }
+    
+    .insta {
+        max-width: 13%;
+        left: 14.5rem;
+        top: 3rem;
+    }
+    .twit {
+        top: 9rem;
+        left: 1rem;
+    }
+    .cteam {
+        z-index: 4;
+        max-width:70%;
+        top: 16rem;
+        left: -3rem;
+    }
+    /* section3 */
+    /* section8 */
+    .route {
+        max-width: 100%;
+    }
+    .check {
+        max-width: 100%;
+    }
+    .women {
+        max-width: 60%;
+    }
 }
 
