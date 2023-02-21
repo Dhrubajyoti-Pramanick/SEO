@@ -121,8 +121,7 @@ p {
     margin-top: 8rem;
 }
 .mac {
-    height: 10rem;
-    width: 20rem;
+    max-width: 100%;
 }
 .perfect-box{
     width: 20rem;
