@@ -12,6 +12,11 @@ ul {
 p {
     margin: 0;
 }
+.btn-warning:hover {
+    background-color: #6F77F1;
+    border-color: #6F77F1;
+    color: #ffffff;
+}
 /* section1 */
 .nav-item {
     list-style: none;
@@ -26,12 +31,10 @@ p {
 
 .nav-link:hover{
     text-decoration: underline;
-    /* color: aqua; */
+   
 }
 
 .yt-logo {
-    /* height: 3rem;
-    width: 7rem; */
     max-width: 80%;
 }
 .woman {
@@ -39,8 +42,6 @@ p {
     z-index: 3;
 }
 .zig-zag {
-    /* height: 18rem;
-    width: 23rem; */
     max-width: 100%;
     z-index: 1;
     top: 5rem;
@@ -48,15 +49,11 @@ p {
 }
 .rhombus {
     z-index: 0;
-    /* height: 12rem;
-    width: 12rem; */
     max-width: 50%;
     top: 2.5rem;
     left: 5.5rem;
 }
 .logo {
-    /* height: 2rem;
-    width: 2rem; */
     max-width: 10%;
 }
 .faceb {
@@ -65,8 +62,6 @@ p {
 }
 
 .insta {
-    /* height: 3rem;
-    width: 3rem; */
     max-width: 13%;
     left: 14.5rem;
     top: 3rem;
@@ -76,19 +71,12 @@ p {
 }
 .cteam {
     z-index: 4;
-    /* height: 8rem;
-    width: 12rem; */
     max-width:55%;
     top: 16rem;
     left: -7rem;
 }
 /*  */
-/* .cards{
-    width: 15rem;
-} */
 .card-logo {
-    /* height: 5rem;
-    width: 5rem; */
     max-width: 30%;
 
 }
@@ -166,8 +154,6 @@ p {
 }
 /* */
 .route{
-    /* height: 18rem;
-    width: 20rem; */
     max-width: 100%;
 }
 .check {
@@ -177,26 +163,14 @@ p {
     height: 3rem;
     width: 3rem;
 }
-/* .seo-box{
-    width: 20rem;
-} */
-/*  */
-/* .stat-card{
-    width: 40rem;
-} */
-/* */
 .our-plans>h4 {
     color: #6F77F1;
-}
-.our-plans>p:hover {
-    color: white;
 }
 .our-plans:hover a {
     background-color: yellow;
     color: black;
 }
 .our-plans:hover h4 {
-    /* background-color: yellow; */
     color: white;
 }
 .our-plans:hover {
@@ -209,8 +183,6 @@ p {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .women {
-    /* height: 5rem;
-    width: 5rem; */
     max-width: 100%;
 }
 /*  */
@@ -229,7 +201,10 @@ p {
     background-color: #6F77F1;
     color: white;
 }
-
+.subscribe:hover{
+    background-color: rgb(255, 157, 0);
+    color: black;
+}
 /* swiper */
 .swiper {
     max-width: 80%;
